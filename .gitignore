@@ -1,0 +1,13 @@
+# Never upload secrets
+.env
+
+# Python junk
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+
+# PDF and personal files (optional)
+me/linkedin.pdf
+me/summary.txt
