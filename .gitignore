@@ -8,6 +8,12 @@ __pycache__/
 # OS junk
 .DS_Store
 
-# PDF and personal files (optional)
+# PDF and personal files 
 me/linkedin.pdf
 me/summary.txt
+
+printf ".venv/\n__pycache__/\n*.pyc\n.DS_Store\n.env\n" >> .gitignore.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
